@@ -19,7 +19,7 @@ public class FileExample {
         Validations validations = new Validations();
         Boolean flag = validations.checkForValidExtension(userFileName);
 
-        if(flag){
+        if(Boolean.TRUE.equals(flag)){
             validations.isFileExist(fileName);
             return fileName;
         }
