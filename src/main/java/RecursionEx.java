@@ -6,6 +6,9 @@ public class RecursionEx {
             return 0;
         } else {
 
+
+
+
             return a + test(++a);
         }
 
@@ -15,6 +18,10 @@ public class RecursionEx {
     public static void main(String[] args) {
 
         RecursionEx ex = new RecursionEx();
+
+
+
+
 
 
         System.out.println(ex.test(5));
